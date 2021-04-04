@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    position: relative;
+    bottom: -26px;
+    left: -70px;
+}
+body{
+    background-image: url(..//html_images/images.jfif);
+    background-size: cover;
+    background-size: center;
+    font-family:sans-serif;
+}
+.menu_bar{
+    background-color: green;
+    text-align: center;
+}
+.menu_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu_bar ul li{
+    width:120px ;
+    margin:15px ;
+    padding:15px ;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu_bar ul li :hover
+{
+    background-color: tomato;
+    border-radius: 10px;
+}
+.menu_bar .fa{
+    margin-right: 4px;
+}
+.sub_menu{
+    display: none;
+}
+.sub_menu
+{
+    display: block;
+    position: absolute;
+    background-color:green;
+    margin-top:15px ;
+    margin-left: -15px;
+
+}
+.sub_menu ul{
+    display: block;
+    margin: 10px;
+}
+.sub_menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    position: relative;
+   
+ }
+ .M1{
+     background-color: chocolate;
+     height: 500px;
+     width: 500px;
+     text-align: center;
+ }
+ .M2{
+     background-color: rgb(179, 54, 158);
+     height: 500px;
+     width: 500px;
+     left: 500px;
+     bottom: 500px;
+     text-align: center;
+ }
+ .M3{
+     background-color: rgb(214, 160, 121);
+     height: 500px;
+     width: 519px;
+     left: 1000px;
+     bottom: 1000px;
+     text-align: center;
+ }
+ footer{
+     position: relative;
+     background-color: darkgoldenrod;
+     height: 50px;
+     bottom: 1000px;
+     text-align: center;
+     color: azure;
+ }
+ div{
+     left: 0px;
+ }

@@ -1,0 +1,44 @@
+#navigation{
+height: 38px;
+background-color: orange;  
+}
+.hyperlinks{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+#hyperlink-one{
+    position: relative;
+    left: 74px;
+}
+#hyperlink-two{
+    position: relative;
+    left: 375px;
+}
+#hyperlink-three{
+    position: relative;
+    left: 690px;
+}
+#main-contents{
+    height: 250px;
+    width: 600px;
+    background-color: cadetblue;
+    position: relative;
+    top: -16px;
+}
+#ads{
+    height: 250px;
+    width: 364px;
+    background-color:burlywood;
+    position: relative;
+    left: 600px;
+    top: -282px;
+}
+#bottom{
+    height: 36px;
+    background-color: orange;
+    position: relative;
+    top: -298px;
+}

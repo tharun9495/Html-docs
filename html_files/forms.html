@@ -1,0 +1,128 @@
+<!-- forms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form>
+    <table>
+        <tr>
+            <td><label for="username">NAME</label></td>
+            <td>:</td>
+            <td><input id="username" type="text"  placeholder="Enter your name" pattern="[A-Z]{1}[a-z]{2,10}"></td>
+        </tr>
+        <tr>
+            <td><label for="abc">Phone no</label></td>
+            <td>:</td>
+            <td><input id="abc"  placeholder="enter the phone number" pattern="[0-9]{10}" title="Enter the number in the format ex:-9xxxxxxxx9"></td>
+        </tr>
+        <tr>
+            <td><label for="Mail_id">Mail_id</label></td>
+            <td>:</td>
+            <td><input id="Mail_id" type="email"></td>
+        </tr>
+        <tr>
+            <td><label for="DOB">DOB</label></td>
+            <td>:</td>
+            <td><input id="DOB" type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="Pincode">Pincode</label></td>
+            <td>:</td>
+            <td><input id="Pincode" type="number" pattern="[0-9]{6}"></td>
+        </tr>
+        <tr>
+            <td><label for="URL">URL</label></td>
+            <td>:</td>
+            <td><input id="URL" type="url"></td>
+        </tr>
+        <tr>
+            <td><label for="Salary range">Salary range</label></td>
+            <td>:</td>
+            <td><input id="Salary range" type="range"></td>
+        </tr>
+        <tr>
+            <td><label for="Resume">Resume</label></td>
+            <td>:</td>
+            <td><input id="Resume" type="file"></td>
+        </tr>
+        <tr>
+            <td><label for="password">password</label></td>
+            <td>:</td>
+            <td><input id="password" type="password"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><button><a href="..//html_files/home.html">Submit</a> </button></td>
+        </tr>
+        <tr>
+            <td><label for="lang">Languages known</label></td>
+            <td>:</td>
+            <td><input id="lang" type="checkbox">English
+                <input id="lang" type="checkbox">Telugu
+                <input id="lang" type="checkbox">Kannada
+                <input id="lang" type="checkbox">Tamil
+            </td>
+            
+        </tr>
+        <tr>
+            <td><label for="radio">Gender</label>
+            </td>
+            <td>:</td>
+            <td><input  type="radio"  name="gender" value="male"> male
+            <input type="radio" name="gender" value="female">female</td> 
+        </tr>
+        <tr>
+            <td><label for="lang">State</label></td>
+            <td>:</td>
+            <td>
+                <select>
+                    <option>--------select------------</option>
+                    <option>A.P</option>
+                    <option>KA</option>
+                    <option>TN</option>
+                    <option>MH</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="feedback">FeedBack</label></td>
+            <td>:</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="tech">Technologies</label></td>
+            <td>:</td>
+            <td><input list="Technologies">
+            <datalist id="Technologies">
+                <option value="Python"></option>
+               <option value="SQL"></option>
+                <option value="Web"></option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="fd">fieldset</label></td>
+          <td>:</td>
+            <td><fieldset>
+                <legend>Academic details</legend>
+                Qualification : <input> <br>
+                Stream : <input>
+            </fieldset></td>
+            <td>
+
+            </td>
+        </tr>
+    </table>
+
+</form>
+<br><br><br>
+<a href="..//html_files/login.html">All Ready Existing User</a>
+</body>
+</html>

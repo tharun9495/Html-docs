@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(..//html_images/images.jfif);
+    background-size: cover;
+    background-size: center;
+    font-family:sans-serif;
+}
+
+.u{
+    text-decoration: none;
+}
+.H1{
+    background-color: rgb(98, 98, 190);
+}
+.H2{
+    background-color: rgb(138, 138, 177);
+}
+.H3{
+    background-color: rgb(121, 58, 96);
+}
+.H4{
+    background-color: rgb(97, 99, 84);
+}
+.H5{
+    background-color: rgb(49, 165, 201);
+}
+
+main{
+   position: relative;
+  
+}
+.M1{
+    background-color: chocolate;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+.M2{
+    background-color: rgb(179, 54, 158);
+    height: 100px;
+    width: 300px;
+    left: 300px;
+    bottom: 100px;
+    text-align: center;
+}
+.M3{
+    background-color: rgb(214, 160, 121);
+    height: 100px;
+    width: 300px;
+    left: 600px;
+    bottom: 200px;
+    text-align: center;
+}
+footer{
+    position: relative;
+    background-color: darkgoldenrod;
+    height: 50px;
+    bottom: 200px;
+}
+div{
+    left: 0px;
+}

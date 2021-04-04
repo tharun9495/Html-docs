@@ -1,0 +1,29 @@
+#parent{
+    background-color: burlywood;
+    height: 200px;
+    width: 100%;
+    
+}
+i
+.child{
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+    
+}
+#b-one{
+    margin-left: 145px;
+}
+#b-two{
+    margin-left: 160px;
+    margin-right: 165px;
+}
+.box{
+    border: 2px solid black;
+}
+p{
+    text-align:center ;
+    margin: 38px;
+}
